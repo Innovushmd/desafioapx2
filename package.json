@@ -1,0 +1,22 @@
+{
+    "name": "piedra-papel-tijera",
+    "version": "1.0.0",
+    "description": "Juego en línea de Piedra, Papel o Tijera",
+    "main": "index.ts",
+    "scripts": {
+      "start": "ts-node index.ts",
+      "build": "tsc",
+      "dev": "ts-node-dev index.ts"
+    },
+    "dependencies": {
+      "firebase": "^9.6.1",
+      "express": "^4.17.1",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "typescript": "^4.3.5",
+      "ts-node": "^10.4.0",
+      "ts-node-dev": "^1.1.8"
+    }
+  }
+  

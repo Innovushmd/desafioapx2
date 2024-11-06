@@ -1,0 +1,26 @@
+{
+    "info": {
+      "name": "Piedra, Papel o Tijera API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Crear Game Room",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "url": {
+            "raw": "https://api.tu-juego.com/rooms",
+            "protocol": "https",
+            "host": ["api", "tu-juego", "com"],
+            "path": ["rooms"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{ \"roomName\": \"room1\" }"
+          }
+        }
+      }
+    ]
+  }
+  
